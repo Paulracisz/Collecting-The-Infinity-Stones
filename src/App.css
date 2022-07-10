@@ -1,38 +1,65 @@
 .App {
+  background-image: url('./resources/marvel-space-background.jpg');
+  width: 99vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url('./resources/marvel-space-background.jpg');
+}
+
+h1, h2 {
   text-align: center;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  margin-top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.speaker:hover {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gauntlet {
+  width: 16em;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center
+}
+
+.gauntlet-flex {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.stones-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.293);
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+.speaker:hover {
+  cursor: pointer;
+}
+
+.speaker {
+  background: none;
+  border: none;
+  font-size: 2.5em;
 }

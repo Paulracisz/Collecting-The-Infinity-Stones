@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.infinity-stone {
+  margin: 5px;
+  width: 2em;
+}
+
+.reset-counter {
+  background-color: rgba(245, 245, 245, 0.47);
+  border: none;
+  color: white;
+  text-shadow: 1px 1px black;
+  padding: 10px;
+  border-radius: 5%;
+  height: 3em;
+}
+
+.reset-counter:hover {
+  background-color: rgba(245, 245, 245);
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.button-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
