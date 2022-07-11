@@ -40,15 +40,11 @@ function getElapsedTime(cookie) {
     return cookie
   }
 
-  function toggleMusic() {
-
-  }
-
   React.useEffect(() => {
     // Runs after the first render() lifecycle
     createCookie();
     const interval = setInterval(() => {
-      setMyText(7.884e+6)
+      setMyText(getElapsedTime(document.cookie))
     }, 1000);
     return () => clearInterval(interval);
   }, []);
@@ -58,7 +54,6 @@ function getElapsedTime(cookie) {
       <h1 className="title">Collect The Infinity Stones</h1>
       <h2 className="desc">Gather stones based on how long its been since you last visited the website. <br/>To reset the timer press the 'reset' button.</h2>
       <source src='./resources/ThanosTheme.mp3' type="audio/mp3" autoPlay={true}/>
-      <div class="button-flex"><button onClick={toggleMusic} className="speaker">🔇</button></div>
       <h1>Elapsed Time: { myText / 86400 > 0 ? Math.floor(myText / 86400) : '0'}  Days { myText / 3600 > 0 ? Math.floor(myText / 3600) : '0'}  Hours { myText / 60 > 0 ? Math.floor(myText / 60) : '0'}  Minutes { myText|| '0'}  Seconds</h1>
       <div className="button-flex"><button onClick={clearCookie} className="reset-counter">Reset Counter</button></div>
       <div className="gauntlet-flex">
