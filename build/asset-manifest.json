@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Collect-the-Infinity-Stones/static/css/main.b469d055.css",
-    "main.js": "/Collect-the-Infinity-Stones/static/js/main.ba8a7713.js",
-    "static/js/787.b4451f27.chunk.js": "/Collect-the-Infinity-Stones/static/js/787.b4451f27.chunk.js",
-    "static/media/gauntlet-empty.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
-    "static/media/gauntlet-2-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-2-stone.d93fc5f68651f6101075.png",
-    "static/media/gauntlet-3-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-3-stone.9386f8d27ab97b534a8d.png",
-    "static/media/gauntlet-1-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-1-stone.4f421e9efe52eb3b4705.png",
-    "static/media/gauntlet-5-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-5-stone.41f427d775658c51e092.png",
-    "static/media/gauntlet-4-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-4-stone.a82bf0e3645827e1b081.png",
-    "static/media/gauntlet-6-stone.png": "/Collect-the-Infinity-Stones/static/media/gauntlet-6-stone.51a28f518f1e3151eb10.png",
-    "static/media/marvel-space-background.jpg": "/Collect-the-Infinity-Stones/static/media/marvel-space-background.3b8f83204da0c177c2d0.jpg",
-    "static/media/space-stone.png": "/Collect-the-Infinity-Stones/static/media/space-stone.3c7653d0132be9b85027.png",
-    "static/media/reality-stone.png": "/Collect-the-Infinity-Stones/static/media/reality-stone.8f3df784c39d5e6b4df9.png",
-    "static/media/soul-stone.png": "/Collect-the-Infinity-Stones/static/media/soul-stone.be2c82028989f7beb5fb.png",
-    "static/media/mind-stone.png": "/Collect-the-Infinity-Stones/static/media/mind-stone.34cb1fad2593513c16e5.png",
-    "static/media/time-stone.png": "/Collect-the-Infinity-Stones/static/media/time-stone.c909a5ce99f9235d0e50.png",
-    "static/media/power-stone.png": "/Collect-the-Infinity-Stones/static/media/power-stone.fb3151993329f3dcfd64.png",
-    "index.html": "/Collect-the-Infinity-Stones/index.html",
-    "main.b469d055.css.map": "/Collect-the-Infinity-Stones/static/css/main.b469d055.css.map",
-    "main.ba8a7713.js.map": "/Collect-the-Infinity-Stones/static/js/main.ba8a7713.js.map",
-    "787.b4451f27.chunk.js.map": "/Collect-the-Infinity-Stones/static/js/787.b4451f27.chunk.js.map"
+    "main.css": "/static/css/main.9af905b5.css",
+    "main.js": "/static/js/main.fe0bb565.js",
+    "static/js/787.b4451f27.chunk.js": "/static/js/787.b4451f27.chunk.js",
+    "static/media/gauntlet-empty.png": "/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
+    "static/media/gauntlet-2-stone.png": "/static/media/gauntlet-2-stone.d93fc5f68651f6101075.png",
+    "static/media/gauntlet-3-stone.png": "/static/media/gauntlet-3-stone.9386f8d27ab97b534a8d.png",
+    "static/media/gauntlet-1-stone.png": "/static/media/gauntlet-1-stone.4f421e9efe52eb3b4705.png",
+    "static/media/gauntlet-5-stone.png": "/static/media/gauntlet-5-stone.41f427d775658c51e092.png",
+    "static/media/gauntlet-4-stone.png": "/static/media/gauntlet-4-stone.a82bf0e3645827e1b081.png",
+    "static/media/gauntlet-6-stone.png": "/static/media/gauntlet-6-stone.51a28f518f1e3151eb10.png",
+    "static/media/marvel-space-background.jpg": "/static/media/marvel-space-background.3b8f83204da0c177c2d0.jpg",
+    "static/media/space-stone.png": "/static/media/space-stone.3c7653d0132be9b85027.png",
+    "static/media/reality-stone.png": "/static/media/reality-stone.8f3df784c39d5e6b4df9.png",
+    "static/media/soul-stone.png": "/static/media/soul-stone.be2c82028989f7beb5fb.png",
+    "static/media/mind-stone.png": "/static/media/mind-stone.34cb1fad2593513c16e5.png",
+    "static/media/time-stone.png": "/static/media/time-stone.c909a5ce99f9235d0e50.png",
+    "static/media/power-stone.png": "/static/media/power-stone.fb3151993329f3dcfd64.png",
+    "index.html": "/index.html",
+    "main.9af905b5.css.map": "/static/css/main.9af905b5.css.map",
+    "main.fe0bb565.js.map": "/static/js/main.fe0bb565.js.map",
+    "787.b4451f27.chunk.js.map": "/static/js/787.b4451f27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b469d055.css",
-    "static/js/main.ba8a7713.js"
+    "static/css/main.9af905b5.css",
+    "static/js/main.fe0bb565.js"
   ]
 }
