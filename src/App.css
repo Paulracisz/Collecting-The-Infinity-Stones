@@ -1,11 +1,15 @@
 .App {
-  background-image: url('./resources/marvel-space-background.jpg');
+  /* background-image: url('./resources/marvel-space-background.jpg'); */
   width: 99vw;
   height: 100vh;
+  /* background-repeat: no-repeat; */
 }
 
+
 body {
-  background-image: url('./resources/marvel-space-background.jpg');
+  background-color: #161515;
+  /* background-image: url('./resources/marvel-space-background.jpg'); */
+  background-repeat: no-repeat;
 }
 
 h1, h2 {
