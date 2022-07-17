@@ -16,7 +16,7 @@ import SoulStone from './resources/soul-stone.png';
 
 let displayTime = 0;
 function App() {
-const [state, setState] = React.useState();
+const [state, setState] = React.useState("");
 function createCookie() {
   // if there is not already a cookie
     if (!document.cookie) {
