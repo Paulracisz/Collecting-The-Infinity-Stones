@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/collectstones/static/css/main.fff9e12a.css",
-    "main.js": "/collectstones/static/js/main.b6814cef.js",
+    "main.js": "/collectstones/static/js/main.f786b091.js",
     "static/js/787.b4451f27.chunk.js": "/collectstones/static/js/787.b4451f27.chunk.js",
     "static/media/gauntlet-empty.png": "/collectstones/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
     "static/media/gauntlet-2-stone.png": "/collectstones/static/media/gauntlet-2-stone.d93fc5f68651f6101075.png",
@@ -18,11 +18,11 @@
     "static/media/power-stone.png": "/collectstones/static/media/power-stone.fb3151993329f3dcfd64.png",
     "index.html": "/collectstones/index.html",
     "main.fff9e12a.css.map": "/collectstones/static/css/main.fff9e12a.css.map",
-    "main.b6814cef.js.map": "/collectstones/static/js/main.b6814cef.js.map",
+    "main.f786b091.js.map": "/collectstones/static/js/main.f786b091.js.map",
     "787.b4451f27.chunk.js.map": "/collectstones/static/js/787.b4451f27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fff9e12a.css",
-    "static/js/main.b6814cef.js"
+    "static/js/main.f786b091.js"
   ]
 }
