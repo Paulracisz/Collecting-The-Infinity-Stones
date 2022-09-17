@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.fff9e12a.css",
-    "main.js": "/Collecting-The-Infinity-Stones/static/js/main.2e46fa27.js",
+    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.4ba41cb3.css",
+    "main.js": "/Collecting-The-Infinity-Stones/static/js/main.ca246c39.js",
     "static/js/787.b4451f27.chunk.js": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js",
     "static/media/gauntlet-empty.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
     "static/media/gauntlet-2-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-2-stone.d93fc5f68651f6101075.png",
@@ -10,6 +10,9 @@
     "static/media/gauntlet-5-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-5-stone.41f427d775658c51e092.png",
     "static/media/gauntlet-4-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-4-stone.a82bf0e3645827e1b081.png",
     "static/media/gauntlet-6-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-6-stone.51a28f518f1e3151eb10.png",
+    "static/media/lightning.gif": "/Collecting-The-Infinity-Stones/static/media/lightning.7e02e099bd83eca4f13e.gif",
+    "static/media/thanossound.mp3": "/Collecting-The-Infinity-Stones/static/media/thanossound.72927ec167159e3f5442.mp3",
+    "static/media/thanossnapsound.mp3": "/Collecting-The-Infinity-Stones/static/media/thanossnapsound.30c689b1dfe117ff8e4e.mp3",
     "static/media/space-stone.png": "/Collecting-The-Infinity-Stones/static/media/space-stone.3c7653d0132be9b85027.png",
     "static/media/reality-stone.png": "/Collecting-The-Infinity-Stones/static/media/reality-stone.8f3df784c39d5e6b4df9.png",
     "static/media/soul-stone.png": "/Collecting-The-Infinity-Stones/static/media/soul-stone.be2c82028989f7beb5fb.png",
@@ -17,12 +20,12 @@
     "static/media/time-stone.png": "/Collecting-The-Infinity-Stones/static/media/time-stone.c909a5ce99f9235d0e50.png",
     "static/media/power-stone.png": "/Collecting-The-Infinity-Stones/static/media/power-stone.fb3151993329f3dcfd64.png",
     "index.html": "/Collecting-The-Infinity-Stones/index.html",
-    "main.fff9e12a.css.map": "/Collecting-The-Infinity-Stones/static/css/main.fff9e12a.css.map",
-    "main.2e46fa27.js.map": "/Collecting-The-Infinity-Stones/static/js/main.2e46fa27.js.map",
+    "main.4ba41cb3.css.map": "/Collecting-The-Infinity-Stones/static/css/main.4ba41cb3.css.map",
+    "main.ca246c39.js.map": "/Collecting-The-Infinity-Stones/static/js/main.ca246c39.js.map",
     "787.b4451f27.chunk.js.map": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff9e12a.css",
-    "static/js/main.2e46fa27.js"
+    "static/css/main.4ba41cb3.css",
+    "static/js/main.ca246c39.js"
   ]
 }
