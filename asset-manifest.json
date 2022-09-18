@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.4ba41cb3.css",
-    "main.js": "/Collecting-The-Infinity-Stones/static/js/main.ca246c39.js",
+    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.1ccbafb7.css",
+    "main.js": "/Collecting-The-Infinity-Stones/static/js/main.efb0481f.js",
     "static/js/787.b4451f27.chunk.js": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js",
     "static/media/gauntlet-empty.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
+    "static/media/thanossnapgif.gif": "/Collecting-The-Infinity-Stones/static/media/thanossnapgif.a6b4512f7806d7024554.gif",
     "static/media/gauntlet-2-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-2-stone.d93fc5f68651f6101075.png",
     "static/media/gauntlet-3-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-3-stone.9386f8d27ab97b534a8d.png",
     "static/media/gauntlet-1-stone.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-1-stone.4f421e9efe52eb3b4705.png",
@@ -20,12 +21,12 @@
     "static/media/time-stone.png": "/Collecting-The-Infinity-Stones/static/media/time-stone.c909a5ce99f9235d0e50.png",
     "static/media/power-stone.png": "/Collecting-The-Infinity-Stones/static/media/power-stone.fb3151993329f3dcfd64.png",
     "index.html": "/Collecting-The-Infinity-Stones/index.html",
-    "main.4ba41cb3.css.map": "/Collecting-The-Infinity-Stones/static/css/main.4ba41cb3.css.map",
-    "main.ca246c39.js.map": "/Collecting-The-Infinity-Stones/static/js/main.ca246c39.js.map",
+    "main.1ccbafb7.css.map": "/Collecting-The-Infinity-Stones/static/css/main.1ccbafb7.css.map",
+    "main.efb0481f.js.map": "/Collecting-The-Infinity-Stones/static/js/main.efb0481f.js.map",
     "787.b4451f27.chunk.js.map": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba41cb3.css",
-    "static/js/main.ca246c39.js"
+    "static/css/main.1ccbafb7.css",
+    "static/js/main.efb0481f.js"
   ]
 }
