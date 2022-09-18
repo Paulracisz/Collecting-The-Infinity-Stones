@@ -123,8 +123,8 @@ p {
   background-color: rgba(245, 245, 245, 0.5);
   padding: 10px;
   position: absolute;
-  left: 40%;
-  top: 30%;
+  left: 40vw;
+  top: 35vh;
   z-index: 6;
 }
 
