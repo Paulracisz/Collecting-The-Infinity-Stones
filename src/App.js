@@ -71,7 +71,7 @@ function getElapsedTime(cookie) {
     }, 3500)
     setTimeout(() => {
       modal.hidden = true
-    }, 5500)
+    }, 5300)
     setTimeout(() => {
       console.log('delayed for 3 seconds')
       thanosSnapAudio[0].loop = false;
@@ -102,7 +102,7 @@ function getElapsedTime(cookie) {
       <audio className="thanosSnapSoundPlayer" src={thanosSnapSound} type="audio/mp3"></audio>
       <audio src='./resources/ThanosTheme.mp3' type="audio/mp3" autoPlay={true}></audio>
       <h1>Elapsed Time: {state[1]} Minute{ state[1] > 1 ? "s": ""} {state[0]} Second{ state[0] > 1 ? "s": ""}</h1>
-      <div className="button-flex"><button onClick={thanosSnap} className='thanos-snap-button'><p id="SNAP">Snap!</p> </button></div>
+      <div className="button-flex">{state[1] >= 15 &&<button onClick={thanosSnap} className='thanos-snap-button'><p id="SNAP">Snap!</p> </button>}</div>
       <div className="button-flex"><button onClick={clearCookie} className="reset-counter">Reset Counter</button></div>
       <div className="gauntlet-flex">
       <img alt="" src={state[1] < 1 ? Gauntlet : ""} className="gauntlet"/> 
