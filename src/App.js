@@ -13,8 +13,9 @@ import RealityStone from './resources/reality-stone.png';
 import MindStone from './resources/mind-stone.png';
 import TimeStone from './resources/time-stone.png';
 import SoulStone from './resources/soul-stone.png';
-import thanosSound from './resources/thanossound.mp3'
-import thanosSnapSound from './resources/thanossnapsound.mp3'
+import thanosSound from './resources/thanossound.mp3';
+import thanosSnapSound from './resources/thanossnapsound.mp3';
+import thanosSnapGif from './resources/thanossnapgif.gif';
 
 let displayTime = 0;
 function App() {
@@ -59,10 +60,18 @@ function getElapsedTime(cookie) {
   function thanosSnap() {
     let html = document.body 
     let thanosAudio = document.getElementsByClassName('thanosSoundPlayer')
+    let thanosSnapButton = document.getElementsByClassName('thanos-snap-button')
     let thanosSnapAudio = document.getElementsByClassName('thanosSnapSoundPlayer')
+    let modal = document.getElementById('modal')
     thanosAudio[0].loop = false;
     thanosAudio[0].play(); 
-    let whiteBox = document.createElement('div')
+    let whiteBox = document.createElement('div') 
+    setTimeout(() => {
+      modal.hidden = false
+    }, 3500)
+    setTimeout(() => {
+      modal.hidden = true
+    }, 5500)
     setTimeout(() => {
       console.log('delayed for 3 seconds')
       thanosSnapAudio[0].loop = false;
@@ -70,6 +79,7 @@ function getElapsedTime(cookie) {
       whiteBox.classList.add('white-box')
     }, 4000)
     whiteBox.classList.add('final-white-box')
+    thanosSnapButton[0].hidden = true
     html.appendChild(whiteBox)
   }
 
@@ -87,11 +97,12 @@ function getElapsedTime(cookie) {
       <div className="snow">
       <h1 className="title">Collect The Infinity Stones</h1>
       <h2 className="desc">Gather stones based on how long its been since you last visited the website. <br/>To reset the timer press the 'reset' button.</h2>
+      <div hidden={true} id="modal"><img alt="gif of thanos snapping" src={thanosSnapGif}/></div>
       <audio className="thanosSoundPlayer" src={thanosSound} type="audio/mp3"></audio>
       <audio className="thanosSnapSoundPlayer" src={thanosSnapSound} type="audio/mp3"></audio>
       <audio src='./resources/ThanosTheme.mp3' type="audio/mp3" autoPlay={true}></audio>
       <h1>Elapsed Time: {state[1]} Minute{ state[1] > 1 ? "s": ""} {state[0]} Second{ state[0] > 1 ? "s": ""}</h1>
-      <div className="button-flex">{state[1] >= 15 &&<button onClick={thanosSnap} className='thanos-snap-button'><p id="SNAP">Snap!</p> </button>}</div>
+      <div className="button-flex"><button onClick={thanosSnap} className='thanos-snap-button'><p id="SNAP">Snap!</p> </button></div>
       <div className="button-flex"><button onClick={clearCookie} className="reset-counter">Reset Counter</button></div>
       <div className="gauntlet-flex">
       <img alt="" src={state[1] < 1 ? Gauntlet : ""} className="gauntlet"/> 

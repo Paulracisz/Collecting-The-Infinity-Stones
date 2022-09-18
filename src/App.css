@@ -72,7 +72,7 @@ p {
 }
 
 .white-box{ 
-  z-index: 9999999999999;
+  z-index: 5;
   width: 50vw;
   height: 100vh;
   position: absolute;
@@ -117,6 +117,15 @@ p {
   perspective: 1000px;
   height: 6em;
   width: 12em;
+}
+
+#modal {
+  background-color: rgba(245, 245, 245, 0.5);
+  padding: 10px;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  z-index: 6;
 }
 
 #SNAP {
