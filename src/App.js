@@ -77,7 +77,7 @@ function getElapsedTime(cookie) {
       thanosSnapAudio[0].loop = false;
       thanosSnapAudio[0].play(); 
       whiteBox.classList.add('white-box')
-    }, 4000)
+    }, 5400)
     whiteBox.classList.add('final-white-box')
     thanosSnapButton[0].hidden = true
     html.appendChild(whiteBox)
