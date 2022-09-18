@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.6e385122.css",
+    "main.css": "/Collecting-The-Infinity-Stones/static/css/main.13b82465.css",
     "main.js": "/Collecting-The-Infinity-Stones/static/js/main.e3823e46.js",
     "static/js/787.b4451f27.chunk.js": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js",
     "static/media/gauntlet-empty.png": "/Collecting-The-Infinity-Stones/static/media/gauntlet-empty.e0a6cb74ad6c0d3aedef.png",
@@ -21,12 +21,12 @@
     "static/media/time-stone.png": "/Collecting-The-Infinity-Stones/static/media/time-stone.c909a5ce99f9235d0e50.png",
     "static/media/power-stone.png": "/Collecting-The-Infinity-Stones/static/media/power-stone.fb3151993329f3dcfd64.png",
     "index.html": "/Collecting-The-Infinity-Stones/index.html",
-    "main.6e385122.css.map": "/Collecting-The-Infinity-Stones/static/css/main.6e385122.css.map",
+    "main.13b82465.css.map": "/Collecting-The-Infinity-Stones/static/css/main.13b82465.css.map",
     "main.e3823e46.js.map": "/Collecting-The-Infinity-Stones/static/js/main.e3823e46.js.map",
     "787.b4451f27.chunk.js.map": "/Collecting-The-Infinity-Stones/static/js/787.b4451f27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e385122.css",
+    "static/css/main.13b82465.css",
     "static/js/main.e3823e46.js"
   ]
 }
